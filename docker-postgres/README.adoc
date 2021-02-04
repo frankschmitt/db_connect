@@ -1,0 +1,10 @@
+= docker-compose
+
+doesn't work for (adminer works ok on http://localhost:8080, but I still cannot connect from the host to PostgreSQL9
+
+
+= manually
+== run the container
+sudo docker run --rm -P -p 127.0.0.1:5432:5432 -e POSTGRES_PASSWORD="1234" --name pg postgres:alpine
+== connect
+psql postgresql://postgres:1234@localhost:5432/postgres
