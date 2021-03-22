@@ -1,0 +1,14 @@
+# Use neo4j/test
+version: '3.1'
+
+services:
+
+  db:
+    image: neo4j
+    restart: always
+    environment:
+      NEO4J_AUTH: neo4j/test
+    ports:
+      - 7474:7474
+      - 7687:7687
+
