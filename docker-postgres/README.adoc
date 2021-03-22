@@ -1,6 +1,7 @@
 = docker-compose
 
-doesn't work for (adminer works ok on http://localhost:8080, but I still cannot connect from the host to PostgreSQL9
+doesn't work for (adminer works ok on http://localhost:8080, but I still cannot connect from the host to PostgreSQL9)
+(might be because the stack.yaml doesn't specify ports for the PostgreSQL container !? )
 
 
 = manually
