@@ -1,0 +1,14 @@
+= SYNOPSIS
+Dependency visualiser (not only) for Oracle objects
+
+= PREREQUISITES
+* a running Neo4J database (you can use Docker compose and stack.yml for this) 
+
+= USAGE
+* export your dependencies to a csv file using feeders/oracle-deps.sql
+* rename this file to input.csv
+* run the import
+
+== CYPHER queries
+=== Get all DB schemata
+MATCH (n:Schema) RETURN n LIMIT 250
