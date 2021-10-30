@@ -1,6 +1,4 @@
 # db_connect
-Code examples for connecting to various database systems
-
 Code examples for connection to database systems.
 
 Databases include:
