@@ -1,5 +1,5 @@
 # db_connect
-Code examples for connection to database systems.
+Code examples for connecting to database systems.
 
 Databases include:
 * Neo4J
