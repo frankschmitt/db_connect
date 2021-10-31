@@ -1,0 +1,12 @@
+= docker-compose
+
+docker-compose -f stack.yml up
+
+then, open the MongoExpress UI at http://localhost:8081 
+username: root
+password: example
+
+= manually
+== run the container
+sudo docker run --name some-mongo -d mongo:tag
+== connect
