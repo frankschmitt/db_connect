@@ -1,1 +1,2 @@
 pip install pymongo
+pip install cx_oracle
